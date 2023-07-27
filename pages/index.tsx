@@ -3,6 +3,7 @@ import ToolPage from "../utils/ToolPage";
 import styles from "./index.module.scss";
 import CheckmarkIcon from "../svg/checkmark.svg";
 import classNames from "classnames";
+import GitHubIcon from "../svg/github.svg"
 
 const Home: ToolPage = () => {
   return (
@@ -48,6 +49,18 @@ const Home: ToolPage = () => {
                 <CheckmarkIcon />
               </span>
               No popups
+            </li>
+             <li>
+              <span className={classNames(styles.img, styles.github)}>
+                <GitHubIcon />
+              </span>
+              <a
+                href="https://github.com/luin/bazinga"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Fully open source
+              </a>
             </li>
           </ul>
         </div>
