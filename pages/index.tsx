@@ -52,9 +52,10 @@ const Home: ToolPage = () => {
             </li>
              <li>
               <span className={classNames(styles.img, styles.github)}>
+                <GithubIcon />
               </span>
               <a
-                href="https://github.com/luin/bazinga"
+                href="https://github.com/luin/iftiin-tools"
                 target="_blank"
                 rel="noreferrer"
               >
