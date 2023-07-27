@@ -2,7 +2,6 @@ import Image from "next/image";
 import ToolPage from "../utils/ToolPage";
 import styles from "./index.module.scss";
 import CheckmarkIcon from "../svg/checkmark.svg";
-import GitHubIcon from "../svg/github.svg";
 import classNames from "classnames";
 
 const Home: ToolPage = () => {
