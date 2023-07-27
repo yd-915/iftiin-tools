@@ -210,19 +210,13 @@ export default function Layout<T extends ToolPageSettings>({
               <div className={styles.blockquoteIcon}>
                 <QuoteIcon width="24" />
               </div>
-              <span>BAZINGA.TOOLS</span> is the best all-in-one toolbox for all
-              your needs...Bazinga!
-              <footer>—— Sheldon Lee Cooper</footer>
+              <span>Simple. Useful. Private.</span> Iftiin-is the best all-in-one toolbox for all
+              your needs.
+              <footer>—— Iftiin Technologies</footer>
             </blockquote>
             <footer className={styles.mainFooter}>
               <nav>
-                <a href="https://github.com/luin/bazinga/stargazers">
-                  Star on GitHub
-                </a>
-                <a href="https://github.com/luin/bazinga/issues/new">
-                  Report a Bug
-                </a>
-                <Link href="/api-tips">API &amp; Tips</Link>
+         
               </nav>
             </footer>
           </>
