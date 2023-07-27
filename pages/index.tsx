@@ -16,7 +16,7 @@ const Home: ToolPage = () => {
           Your all-in-one developer toolbox
         </p>
         <div className={styles.privacy}>
-          <Image src="/images/tools.png" width={115} height={170} alt="" />
+          <Image src="/images/tools.png" width={220} height={220} alt="" />
           <h2>Your privacy: guaranteed!</h2>
           <p>Your data won&apos;t leave your browser.</p>
           <ul>
@@ -51,16 +51,7 @@ const Home: ToolPage = () => {
               No popups
             </li>
              <li>
-              <span className={classNames(styles.img, styles.github)}>
-                <GitHubIcon />
-              </span>
-              <a
-                href="https://github.com/luin/bazinga"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Fully open source
-              </a>
+         
             </li>
           </ul>
         </div>
