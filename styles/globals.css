@@ -8,7 +8,7 @@
 
   --color: #2D3134;
   --color-secondary: #1c1c1b;
-  --color-bg: #FFE485;
+  --color-bg:#1c1c1b;
   --color-bg-overlay: rgba(0, 0, 0, 0.1);
   --color-mark-bg: #ffd277;
   --color-muted-bg: #eae7dd;
@@ -22,7 +22,7 @@
   --color-control-active-border: #7d7b74;
 
   --color-button-primary: #fff;
-  --color-button-primary-bg: #f76f4e;
+  --color-button-primary-bg: #FFE485; 
   --color-button-primary-hover-bg: #F15530;
   --color-button-primary-border: #F15530;
   --color-button-primary-hover-border: #F15530;
