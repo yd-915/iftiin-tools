@@ -10,10 +10,10 @@ const Home: ToolPage = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <span>Bazinga.tools!</span>
+          Welcome to <span>Iftiin-Tool</span>
         </h1>
         <p className={styles.description}>
-          The all-in-one toolbox for developers
+          Your all-in-one developer toolbox
         </p>
         <div className={styles.privacy}>
           <Image src="/images/lock.png" width={115} height={170} alt="" />
@@ -49,18 +49,6 @@ const Home: ToolPage = () => {
                 <CheckmarkIcon />
               </span>
               No popups
-            </li>
-            <li>
-              <span className={classNames(styles.img, styles.github)}>
-                <GitHubIcon />
-              </span>
-              <a
-                href="https://github.com/luin/bazinga"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Fully open source
-              </a>
             </li>
           </ul>
         </div>
