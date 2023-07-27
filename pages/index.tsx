@@ -10,14 +10,14 @@ const Home: ToolPage = () => {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <span>Iftiin-Tool</span>
+          Welcome to <span>Iftiin-Tools</span>
         </h1>
         <p className={styles.description}>
           Your all-in-one developer toolbox
         </p>
         <div className={styles.privacy}>
-          <Image src="/images/lock.png" width={115} height={170} alt="" />
-          <h2>Your privacy is guaranteed</h2>
+          <Image src="/images/tools.png" width={115} height={170} alt="" />
+          <h2>Your privacy: guaranteed!</h2>
           <p>Your data won&apos;t leave your browser.</p>
           <ul>
             <li>
