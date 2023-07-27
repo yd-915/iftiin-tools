@@ -51,7 +51,9 @@ const Home: ToolPage = () => {
               No popups
             </li>
              <li>
-         
+              <span className={classNames(styles.img, styles.github)}>
+              </span>
+              
             </li>
           </ul>
         </div>
