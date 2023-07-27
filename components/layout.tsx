@@ -119,18 +119,18 @@ export default function Layout<T extends ToolPageSettings>({
       <Head>
         <title>
           {title
-            ? `${title} - Bazinga Tools`
-            : "Bazinga Tools - The All-in-One Toolbox for Developers"}
+            ? `${title} - Iftiin Tools`
+            : "Iftiin Tools - Your all-in-one developer toolbox"}
         </title>
         {title && (
           <meta
             name="description"
-            content={`${title}. Bazinga Tools; the all-in-one toolbox for developers.`}
+            content={`${title}. Iftiin Tools - Your all-in-one developer toolbox.`}
           />
         )}
         <meta
           name="apple-mobile-web-app-title"
-          content={title || "Bazinga Tools"}
+          content={title || "Iftiin Tools"}
         />
         <meta
           name="viewport"
