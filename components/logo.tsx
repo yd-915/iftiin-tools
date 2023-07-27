@@ -9,7 +9,7 @@ interface LogoProps {
 const Logo = ({ link = false, onClick }: LogoProps) => {
   const content = (
     <div onClick={onClick} className={styles.container}>
-      BAZINGA<span>.</span>TOOLS
+      Iftiin<span>.</span>Tools
     </div>
   );
 
