@@ -53,7 +53,13 @@ const Home: ToolPage = () => {
              <li>
               <span className={classNames(styles.img, styles.github)}>
               </span>
-              
+              <a
+                href="https://github.com/luin/bazinga"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Fully open source
+              </a>
             </li>
           </ul>
         </div>
